@@ -1,0 +1,65 @@
+.body {
+    background-color: red;
+    color: rgb(178, 143, 97);
+}
+.hobby {
+    color:blueviolet
+}
+.school{
+    background-color: rgb(70, 114, 153);
+}
+.text {
+    color: black;
+}
+@media screen and (min-width: 320px),(max-width: 480px){
+    body{
+        background-color: aliceblue;
+        color:rgb(243, 109, 109) ;
+    }
+    
+    .tiny{
+        display: block;
+    }
+    .medium,.small,.large{
+        display: none;
+    }
+}
+@media screen and (min-width: 481px),(max-width: 768px){
+    body{
+        background-color: aliceblue;
+        color: rgb(130, 244, 92) ;
+    }
+    
+    .small{
+        display: block;
+    }
+    .medium,.tiny,.large{
+        display: none;
+    }
+}
+@media screen and (min-width: 769px),(max-width: 1024px){ 
+    body{
+        background-color: aliceblue;
+        color: rgb(85, 115, 235);
+    }
+    
+    .medium{
+        display: block;
+    }
+    .medium,.tiny,.small{
+        display: none;
+    }
+}
+@media screen and (min-width: 1025px),(max-width: 1200px){
+    body{
+        background-color: aliceblue;
+        color:rgb(227, 99, 197) ;
+    }
+    
+    .large{
+        display: block;
+    }
+    .medium,.tiny,.small{
+        display: none;
+    }
+}
